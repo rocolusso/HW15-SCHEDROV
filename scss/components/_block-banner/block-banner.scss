@@ -1,0 +1,80 @@
+
+.block-banner {
+
+
+  background-color: $--secondary-site-color;
+  padding: 100px;
+
+  .block-banner_content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+    .banner-content_left {
+
+      width: 50%;
+
+      p {
+
+        padding-right: 90px;
+        padding-top: 20px;
+      }
+
+      a {
+        background-color: $--third-site-color;
+        color: $--main-site-color;
+        padding: 15px 64px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin-top: 40px;
+        border-radius: 10px;
+        border: 2px solid transparent;
+
+        &:hover {
+          background-color: $--secondary-site-color;
+          color: $--third-site-color;
+          padding: 15px 64px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin-top: 40px;
+          transition: .3s;
+          border-radius: 10px;
+          border: 2px solid $--third-site-color;
+        }
+
+      }
+
+    }
+
+    .banner-content_right {
+
+      width: 50%;
+
+
+
+      iframe {
+        width: 600px;
+        height: 340px;
+
+        -webkit-box-shadow: 0px 4px 58px 7px rgba(34, 60, 80, 0.29);
+        -moz-box-shadow: 0px 4px 58px 7px rgba(34, 60, 80, 0.29);
+        box-shadow: 0px 4px 58px 7px rgba(34, 60, 80, 0.29);
+      }
+    }
+  }
+
+
+}
+
+
+
+
+
+
+
+

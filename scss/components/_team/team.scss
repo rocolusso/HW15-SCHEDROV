@@ -1,0 +1,118 @@
+.team {
+  padding: 50px 0;
+
+  .team_text {
+
+    text-align: left;
+    padding-bottom: 30px;
+
+    .team_zagolovok{
+
+      padding-top: 20px;
+
+    }
+
+    .team_podzagolovok{
+
+
+      width: 500px;
+
+      padding: 20px 0;
+
+
+
+
+    }
+
+    .line {
+      width: 200px;
+      border: 1px  solid $--third-site-color ;
+
+
+    }
+
+
+  }
+
+  .team-gallary {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+
+    .team_main_item {
+
+
+    }
+
+    .team_about {
+      width: 68%;
+
+
+      .team_about_zagolovok {
+
+      }
+     .team_about_podzagolovok{
+       width: 620px;
+       padding: 20px 0;
+
+
+      }
+
+      .team_tabs {
+        padding-bottom: 20px;
+
+
+        ul{
+          margin: 0;
+          padding: 0;
+          list-style: none;
+          display: flex;
+
+          li {
+
+            padding-right: 20px;
+            a{
+              text-decoration: none;
+              color:#333;
+
+
+            }
+
+
+          }
+
+
+        }
+
+
+
+      }
+       .team_gallary {
+         @include team(100px);
+
+
+         .team_gallary_item{
+         width: 190px;
+
+
+
+
+         }
+
+       }
+
+    }
+
+
+
+  }
+
+
+
+
+
+
+
+
+}

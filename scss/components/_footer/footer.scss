@@ -1,0 +1,36 @@
+footer {
+  background-color: #333;
+  color: $--main-site-color;
+  height: 100px;
+  align-items: center;
+
+
+  .footer-wrapper{
+    padding-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    .social {
+
+      display: flex;
+      .social-item {
+        margin: 0 10px;
+        width: 30px;
+        height: 30px;
+
+
+      }
+
+
+    }
+
+  }
+
+
+
+
+
+
+}
