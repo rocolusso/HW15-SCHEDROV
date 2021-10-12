@@ -247,6 +247,37 @@ header .navigation nav ul li a:hover {
     width: 100% !important;
   }
 }
+@media (max-width: 767px) {
+  .banner-content_left {
+    width: 80% !important;
+  }
+
+  .banner-content_right {
+    margin-top: 50px;
+    width: 100% !important;
+  }
+}
+@media (max-width: 500px) {
+  .container {
+    max-width: 500px;
+  }
+
+  .banner-content_left {
+    width: 50% !important;
+  }
+  .banner-content_left p {
+    padding-right: 0px !important;
+  }
+
+  .banner-content_right {
+    margin-top: 50px;
+    width: 450px !important;
+  }
+  .banner-content_right iframe {
+    width: 380px !important;
+    height: 150px !important;
+  }
+}
 .block-reviews {
   background-color: white;
   padding: 100px 0;
@@ -342,6 +373,16 @@ header .navigation nav ul li a:hover {
     width: 100% !important;
   }
 }
+@media (max-width: 500px) {
+  .container {
+    max-width: 500px !important;
+  }
+
+  .block-reviews .block-reviews_content .reviews-content_right .rev-cont-right_item {
+    flex-direction: column !important;
+    width: 100% !important;
+  }
+}
 .feature {
   padding: 50px 0;
 }
@@ -397,6 +438,26 @@ header .navigation nav ul li a:hover {
 @media (max-width: 992px) {
   .gallary-item {
     width: 245px !important;
+  }
+}
+@media (max-width: 767px) {
+  .gallary-item {
+    width: 190px !important;
+  }
+}
+@media (max-width: 500px) {
+  .container {
+    max-width: 500px !important;
+  }
+
+  .team_gallary {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .gallary-item {
+    margin-left: 50px;
+    width: 400px !important;
   }
 }
 .team {
@@ -507,6 +568,70 @@ header .navigation nav ul li a:hover {
     height: 270px !important;
   }
 }
+@media (max-width: 767px) {
+  .container {
+    max-width: 767px;
+  }
+
+  .team_text {
+    padding-left: 100px;
+  }
+
+  .team_about {
+    width: 50% !important;
+    padding-left: 50px;
+  }
+
+  .team_about_zagolovok {
+    padding-left: 0;
+  }
+
+  .team_about_podzagolovok {
+    width: 380px !important;
+    padding-right: 50px !important;
+  }
+
+  .team_gallary {
+    margin-top: 20px !important;
+  }
+
+  .team_gallary_item {
+    padding-left: 0;
+    margin-bottom: 30px;
+    width: 150px !important;
+    height: 150px !important;
+  }
+  .team_gallary_item img {
+    max-width: 150px !important;
+  }
+}
+@media (max-width: 500px) {
+  .team-gallary {
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .team_podzagolovok {
+    width: 350px !important;
+  }
+
+  .team_about {
+    width: 100% !important;
+    padding-left: 0 !important;
+    margin-top: 30px !important;
+  }
+
+  .team_gallary_item {
+    padding-left: 0;
+    margin-bottom: 30px;
+    width: 380px !important;
+    height: 380px !important;
+  }
+  .team_gallary_item img {
+    width: 380px !important;
+    height: 380px !important;
+  }
+}
 .subscribe {
   padding: 100px 0;
   background-color: #f5f0dd;
@@ -545,6 +670,11 @@ header .navigation nav ul li a:hover {
   transition: 0.3s;
 }
 
+@media (max-width: 767px) {
+  .container {
+    width: 767px;
+  }
+}
 .contact {
   overflow-x: hidden;
   margin: 100px 0;
@@ -653,6 +783,35 @@ header .navigation nav ul li a:hover {
 
   .contact-info {
     padding-left: 50px;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    max-width: 767px;
+  }
+
+  .contact-form {
+    flex-direction: column;
+  }
+
+  .contact-about {
+    margin-top: 50px;
+    width: 100% !important;
+    margin-left: 50px !important;
+  }
+
+  .contact_text {
+    padding-left: 50px;
+  }
+
+  .contact-info {
+    padding-left: 50px;
+  }
+}
+@media (max-width: 500px) {
+  .contact-info {
+    width: 100% !important;
+    padding-left: 0 !important;
   }
 }
 footer {

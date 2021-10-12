@@ -13,3 +13,39 @@
   }
 
 }
+
+@media (max-width: 767px) {
+  .container {
+    max-width: 767px;
+  }
+
+  .contact-form{
+    flex-direction: column;
+  }
+
+  .contact-about {
+    margin-top: 50px;
+    width:100% !important;
+    margin-left: 50px !important;
+  }
+
+  .contact_text {
+    padding-left: 50px;
+  }
+
+  .contact-info{
+
+    padding-left: 50px;
+  }
+
+}
+
+@media (max-width:500px){
+
+
+  .contact-info {
+    width: 100% !important;
+    padding-left: 0 !important;
+  }
+
+}

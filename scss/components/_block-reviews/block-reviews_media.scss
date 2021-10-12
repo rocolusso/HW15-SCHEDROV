@@ -88,3 +88,21 @@
   }
   }
         }
+@media (max-width: 500px) {
+
+  .container{
+    max-width: 500px !important;
+  }
+
+  .block-reviews {
+    .block-reviews_content{
+      .reviews-content_right{
+
+        .rev-cont-right_item{
+          flex-direction: column !important;
+          width: 100% !important;
+        }
+      }
+    }
+  }
+}

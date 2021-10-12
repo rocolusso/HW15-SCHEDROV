@@ -17,3 +17,30 @@
 
   }
 }
+
+@media (max-width: 767px) {
+
+
+  .gallary-item {
+
+    width: 190px !important;
+
+  }
+}
+
+@media (max-width: 500px) {
+
+   .container{
+     max-width: 500px !important;
+   }
+  .team_gallary{
+    justify-content: center;
+    align-items: center;
+  }
+
+  .gallary-item {
+     margin-left: 50px;
+    width: 400px !important;
+
+  }
+}
