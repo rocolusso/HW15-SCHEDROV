@@ -1,0 +1,51 @@
+@media (max-width: 576px){
+
+.contact {
+
+  margin: 100px 0 0 0 ;
+
+  .contact_text{
+    padding-left: 15px;
+
+    .contact_podzagolovok{
+      max-width: 300px;
+    }
+  }
+
+  .contact-form{
+    flex-direction: column;
+
+
+    .contact-info{
+    width: 100%;
+
+      form {
+
+        .input-field {
+          margin-top: 20px;
+          width: 100%;
+          &:first-child{
+            padding-right: 0;
+          }
+        }
+
+      }
+
+
+    }
+
+
+
+
+
+    .contact-about{
+
+      margin: 50px 0 0 0 ;
+      padding: 50px;
+      width: 100%;
+
+    }
+
+  }
+}
+}

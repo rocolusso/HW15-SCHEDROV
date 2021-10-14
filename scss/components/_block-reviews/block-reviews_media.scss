@@ -1,0 +1,57 @@
+@media (max-width: 1250px) {
+
+
+
+}
+
+@media (max-width: 992px) {
+
+  .block-reviews {
+
+    .block-reviews_content {
+
+      .reviews-content_left{
+         width: 100%;
+      }
+
+      .reviews-content_right{
+        width: 100%;
+        margin-top: 50px;
+
+        .rev-cont-right_item {
+
+        }
+      }
+    }
+  }
+
+
+}
+
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 576px) {
+
+  .block-reviews {
+
+    .block-reviews_content {
+      padding-left: 15px;
+      .reviews-content_left{
+
+      }
+
+      .reviews-content_right{
+
+
+        .rev-cont-right_item {
+          width: 100%;
+
+        }
+      }
+    }
+  }
+
+
+}

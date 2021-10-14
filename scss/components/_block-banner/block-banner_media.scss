@@ -1,0 +1,60 @@
+@media (max-width: 1250px) {
+
+
+
+}
+
+@media (max-width: 992px) {
+
+ h1 {
+  font-size: 40px;
+ }
+
+
+}
+
+@media (max-width: 767px) {
+
+  .block-banner{
+
+   .block-banner_content {
+
+    .banner-content_left{
+     width: 100%;
+    }
+
+    .banner-content_right{
+     width: 100%;
+     margin-top: 50px;
+
+
+    }
+
+
+
+   }
+
+  }
+
+
+
+}
+
+@media (max-width: 576px) {
+ .block-banner {
+
+  padding-top: 50px;
+
+
+  .block-banner_content {
+
+   .banner-content_left {
+    padding-left: 20px;
+    h1 {
+      font-size: 30px;
+
+    }
+   }
+  }
+ }
+}
