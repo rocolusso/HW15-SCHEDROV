@@ -1,7 +1,7 @@
 
 .block-reviews  {
 
-  background-color: $--main-site-color;
+  background-color: $main-site-color;
   padding: 100px 0;
 
 
@@ -23,15 +23,15 @@
 
 
       a {
-        background-color: $--main-site-color;
-        color: $--third-site-color;
-        @extend %review-btn;
-        border: 2px solid $--third-site-color;
+        background-color: $main-site-color;
+        color: $third-site-color;
+        @include banner-review-btn;
+        border: 2px solid $third-site-color;
 
         &:hover {
-          background-color: $--third-site-color;
-          color: $--main-site-color;
-          @extend %review-btn;
+          background-color: $third-site-color;
+          color: $main-site-color;
+          @include banner-review-btn;
           transition: .3s;
           border: 2px solid transparent;
         }

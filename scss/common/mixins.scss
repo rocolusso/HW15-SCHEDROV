@@ -1,9 +1,30 @@
 @mixin team($margin-top){
-
-
   margin-top: $margin-top;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+}
+
+@mixin banner-review-btn{
+
+  padding: 15px 64px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-top: 40px;
+
+}
+
+@mixin subscribe-submit-btn{
+
+  padding: 15px 64px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+
 }

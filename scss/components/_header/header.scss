@@ -1,11 +1,10 @@
 
 header {
-  background-color: $--secondary-site-color;
+  background-color: $secondary-site-color;
   padding-top: 50px;
-  padding-bottom: 25px;
 
   .navigation {
-    background-color: $--nav-bg-color;
+    background-color: $nav-bg-color;
 
 
     nav {
@@ -22,16 +21,16 @@ header {
 
           a {
             display: inline-block;
-            color: $--main-site-color;
+            color: $main-site-color;
             padding: 40px;
             text-decoration: none;
             height: 100px;
 
             &:hover {
-              color: $--main-site-color;
+              color: $main-site-color;
               padding: 40px;
               text-decoration: none;
-              background-color: $--third-site-color;
+              background-color: $third-site-color;
               transition: .3s;
               height: 100px;
             }

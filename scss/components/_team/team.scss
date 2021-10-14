@@ -15,7 +15,7 @@
     .team_podzagolovok{
 
 
-      width: 500px;
+      max-width: 500px;
 
       padding: 20px 0;
 
@@ -26,7 +26,7 @@
 
     .line {
       width: 200px;
-      border: 1px  solid $--third-site-color ;
+      border: 1px  solid $third-site-color ;
 
 
     }
@@ -53,7 +53,7 @@
 
       }
      .team_about_podzagolovok{
-       width: 620px;
+       max-width: 620px;
        padding: 20px 0;
 
 
@@ -93,8 +93,28 @@
 
 
          .team_gallary_item{
-         width: 190px;
+           width: 190px;
+           height: 190px;
+           background-color: #f5efdb;
 
+
+
+           .team-item-title {
+
+             display: none;
+           }
+
+           &:hover {
+             .team-item-title {
+               margin-top: 160px;
+               display: block;
+               padding: 5px 0 5px 40px;
+               background-color: #79776d;
+               color: $main-site-color;
+               text-transform: uppercase;
+             }
+
+           }
 
 
 

@@ -1,27 +1,35 @@
 footer {
   background-color: #333;
-  color: $--main-site-color;
-  height: 100px;
+  color: $main-site-color;
+
   align-items: center;
 
 
   .footer-wrapper{
-    padding-top: 35px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 20px 0;
 
 
     .social {
+      ul {
+         list-style: none;
+        display: flex;
+        li{
 
-      display: flex;
-      .social-item {
-        margin: 0 10px;
-        width: 30px;
-        height: 30px;
+          .social-item {
+            margin: 0 10px;
+            width: 30px;
+            height: 30px;
 
+          }
+
+
+        }
 
       }
+
 
 
     }
