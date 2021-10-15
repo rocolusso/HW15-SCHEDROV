@@ -1,4 +1,141 @@
+@media (max-width: 1250px) {
 
+
+  .team {
+
+
+
+
+    .team-gallary {
+
+
+
+
+      .team_about {
+
+       width: 65%;
+
+
+        .team_about_zagolovok{
+
+
+          h3 {
+
+          }
+
+          .team_about_podzagolovok{
+
+
+          }
+          .team_tabs {
+
+            ul {
+
+            }
+          }
+        }
+        .team_gallary{
+           justify-content: space-between;
+
+
+          .team_gallary_item{
+             width: 150px;
+             height: 150px;
+
+            &:not(last-child) {
+
+            }
+
+          }
+
+
+
+
+
+        }
+
+      }
+
+    }
+
+
+
+
+
+
+  }
+
+
+}
+@media (max-width: 992px) {
+
+
+  .team {
+
+
+
+
+    .team-gallary {
+
+
+
+
+      .team_about {
+        width: 100%;
+        margin-top: 40px;
+
+
+        .team_about_zagolovok{
+
+
+          h3 {
+
+          }
+
+          .team_about_podzagolovok{
+
+
+          }
+          .team_tabs {
+
+            ul {
+
+            }
+          }
+        }
+        .team_gallary{
+
+
+
+          .team_gallary_item{
+              width: 180px;
+              height: 180px;
+
+            &:not(last-child) {
+
+            }
+
+          }
+
+
+
+
+
+        }
+
+      }
+
+    }
+
+
+
+
+
+
+  }
+
+
+}
 @media (max-width: 767px) {
 
 
@@ -10,7 +147,7 @@
 
 
     .team-gallary {
-
+       justify-content: center;
 
       .team_main_item{
 
@@ -21,6 +158,8 @@
       }
 
       .team_about {
+
+        margin-top: 40px;
 
 
         .team_about_zagolovok{

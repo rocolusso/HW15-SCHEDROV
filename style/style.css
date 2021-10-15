@@ -402,6 +402,9 @@ header .navigation nav ul li a:hover {
   .feature .feauture_gallary .gallary-item {
     width: 100%;
   }
+  .feature .feauture_gallary .gallary-item img {
+    width: 500px;
+  }
 }
 .team {
   padding: 50px 0;
@@ -474,9 +477,37 @@ header .navigation nav ul li a:hover {
   text-transform: uppercase;
 }
 
+@media (max-width: 1250px) {
+  .team .team-gallary .team_about {
+    width: 65%;
+  }
+  .team .team-gallary .team_about .team_gallary {
+    justify-content: space-between;
+  }
+  .team .team-gallary .team_about .team_gallary .team_gallary_item {
+    width: 150px;
+    height: 150px;
+  }
+}
+@media (max-width: 992px) {
+  .team .team-gallary .team_about {
+    width: 100%;
+    margin-top: 40px;
+  }
+  .team .team-gallary .team_about .team_gallary .team_gallary_item {
+    width: 180px;
+    height: 180px;
+  }
+}
 @media (max-width: 767px) {
   .team .team_text {
     padding-left: 15px;
+  }
+  .team .team-gallary {
+    justify-content: center;
+  }
+  .team .team-gallary .team_about {
+    margin-top: 40px;
   }
   .team .team-gallary .team_about .team_gallary .team_gallary_item {
     width: 100%;
@@ -700,6 +731,37 @@ header .navigation nav ul li a:hover {
   margin-bottom: 20px;
 }
 
+@media (max-width: 767px) {
+  .contact {
+    margin: 100px 0 0 0;
+  }
+  .contact .contact_text {
+    padding-left: 15px;
+  }
+  .contact .contact_text .contact_podzagolovok {
+    max-width: 300px;
+  }
+  .contact .contact-form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .contact .contact-form .contact-info {
+    width: 100%;
+    margin-right: 50px;
+  }
+  .contact .contact-form .contact-info form .input-field {
+    margin-top: 20px;
+    width: 100%;
+  }
+  .contact .contact-form .contact-info form .input-field:first-child {
+    padding-right: 0;
+  }
+  .contact .contact-form .contact-about {
+    margin: 50px 0 0 0;
+    padding: 50px;
+    width: 100%;
+  }
+}
 @media (max-width: 576px) {
   .contact {
     margin: 100px 0 0 0;
