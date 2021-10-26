@@ -1,10 +1,10 @@
-@media (max-width: 1250px) {
+@media (max-width: $breakpointXl) {
 
 
 
 }
 
-@media (max-width: 992px) {
+@media (max-width: $breakpointLg) {
 
  h1 {
   font-size: 40px;
@@ -13,7 +13,7 @@
 
 }
 
-@media (max-width: 767px) {
+@media (max-width: $breakpointMd) {
 
   .block-banner{
 
@@ -40,7 +40,7 @@
 
 }
 
-@media (max-width: 576px) {
+@media (max-width: $breakpointSm) {
  .block-banner {
 
   padding-top: 50px;

@@ -1,10 +1,10 @@
-@media (max-width: 1250px) {
+@media (max-width: $breakpointXl) {
 
 
 
 }
 
-@media (max-width: 992px) {
+@media (max-width: $breakpointLg) {
 
   .block-reviews {
 
@@ -28,11 +28,11 @@
 
 }
 
-@media (max-width: 767px) {
+@media (max-width: $breakpointMd) {
 
 }
 
-@media (max-width: 576px) {
+@media (max-width: $breakpointSm) {
 
   .block-reviews {
 

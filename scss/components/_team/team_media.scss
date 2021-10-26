@@ -1,4 +1,4 @@
-@media (max-width: 1250px) {
+@media (max-width: $breakpointXl) {
 
 
   .team {
@@ -67,7 +67,7 @@
 
 
 }
-@media (max-width: 992px) {
+@media (max-width: $breakpointLg) {
 
 
   .team {
@@ -136,7 +136,7 @@
 
 
 }
-@media (max-width: 767px) {
+@media (max-width: $breakpointMd) {
 
 
   .team {
@@ -150,9 +150,9 @@
        justify-content: center;
 
       .team_main_item{
-
+        width: 100%;
         img {
-
+        width: 100%;
         }
 
       }
@@ -219,7 +219,7 @@
 
 
 
-@media (max-width: 576px) {
+@media (max-width: $breakpointSm) {
 
 
 .team {

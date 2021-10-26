@@ -16,33 +16,31 @@ h2 {
 }
 
 
-
-
 .container {
-  max-width: 1200px;
+  max-width: $containerwidth;
   margin: 0 auto;
 }
 
-@media (max-width: 1250px) {
+@media (max-width: $breakpointXl) {
   .container {
-    width: 992px;
+    width: $breakpointLg;
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: $breakpointLg) {
   .container {
-    width: 767px;
+    width: $breakpointMd;
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: $breakpointMd) {
   .container {
-    width: 576px;
+    width: $breakpointSm;
 
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: $breakpointSm) {
   .container {
     width: 100%;
 

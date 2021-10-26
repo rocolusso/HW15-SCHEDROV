@@ -1,4 +1,4 @@
-@media (max-width: 767px){
+@media (max-width: $breakpointMd){
 
   .contact {
 
@@ -15,6 +15,18 @@
     .contact-form{
       display: flex;
       flex-wrap: wrap;
+
+
+      &:after {
+
+        content: '';
+        position: relative;
+        background-color: #333;
+        height: 100%;
+        width: calc(100vw / 2);
+        right: calc(-100vw / 2);
+        top: 0;
+      }
 
 
       .contact-info{
@@ -52,7 +64,7 @@
   }
 }
 
-@media (max-width: 576px){
+@media (max-width: $breakpointSm){
 
 .contact {
 

@@ -112,10 +112,10 @@ h2 {
 }
 @media (max-width: 992px) {
   .container {
-    width: 767px;
+    width: 768px;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .container {
     width: 576px;
   }
@@ -133,6 +133,7 @@ header .navigation {
   background-color: #303030;
 }
 header .navigation nav ul {
+  padding-left: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -158,6 +159,14 @@ header .navigation nav ul li a:hover {
 }
 
 @media (max-width: 576px) {
+  header .navigation {
+    padding: 0 15px;
+  }
+  header .navigation nav ul li {
+    width: 20%;
+  }
+}
+@media (max-width: 450px) {
   header {
     display: none;
   }
@@ -217,7 +226,7 @@ header .navigation nav ul li a:hover {
     font-size: 40px;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .block-banner .block-banner_content .banner-content_left {
     width: 100%;
   }
@@ -376,16 +385,20 @@ header .navigation nav ul li a:hover {
     width: 180px;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .feature .feauter_text .feauter_subtitle {
     max-width: 500px;
   }
   .feature .feature_tabs ul {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
   }
+  .feature .feature_tabs ul li {
+    width: 30%;
+  }
   .feature .feauture_gallary .gallary-item {
-    width: 140px;
+    width: 220px;
   }
 }
 @media (max-width: 576px) {
@@ -398,6 +411,9 @@ header .navigation nav ul li a:hover {
   .feature .feature_tabs ul {
     display: block;
     text-align: center;
+  }
+  .feature .feature_tabs ul li {
+    width: 100%;
   }
   .feature .feauture_gallary .gallary-item {
     width: 100%;
@@ -428,7 +444,7 @@ header .navigation nav ul li a:hover {
   display: flex;
   flex-wrap: wrap;
   align-content: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 .team .team-gallary .team_about {
   width: 68%;
@@ -499,12 +515,18 @@ header .navigation nav ul li a:hover {
     height: 180px;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .team .team_text {
     padding-left: 15px;
   }
   .team .team-gallary {
     justify-content: center;
+  }
+  .team .team-gallary .team_main_item {
+    width: 100%;
+  }
+  .team .team-gallary .team_main_item img {
+    width: 100%;
   }
   .team .team-gallary .team_about {
     margin-top: 40px;
@@ -731,7 +753,7 @@ header .navigation nav ul li a:hover {
   margin-bottom: 20px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .contact {
     margin: 100px 0 0 0;
   }
@@ -744,6 +766,15 @@ header .navigation nav ul li a:hover {
   .contact .contact-form {
     display: flex;
     flex-wrap: wrap;
+  }
+  .contact .contact-form:after {
+    content: "";
+    position: relative;
+    background-color: #333;
+    height: 100%;
+    width: 50vw;
+    right: -50vw;
+    top: 0;
   }
   .contact .contact-form .contact-info {
     width: 100%;
@@ -794,13 +825,13 @@ header .navigation nav ul li a:hover {
 footer {
   background-color: #333;
   color: white;
+  padding: 20px 0;
   align-items: center;
 }
 footer .footer-wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 0;
 }
 footer .footer-wrapper .social ul {
   list-style: none;

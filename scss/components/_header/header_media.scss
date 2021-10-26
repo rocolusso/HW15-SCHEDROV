@@ -1,5 +1,35 @@
-@media (max-width: 576px) {
+@media (max-width: $breakpointSm) {
   header {
+
+    .navigation{
+
+    padding: 0 15px;
+
+      nav {
+        ul{
+
+
+
+          li {
+
+            width: 20%;
+
+          }
+        }
+
+      }
+
+
+
+    }
+  }
+}
+
+@media (max-width: 450px) {
+
+  header {
+
     display: none;
   }
+
 }
